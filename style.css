@@ -103,7 +103,8 @@ h1, h2 {
   text-decoration: none;
 }
 pre {
-  margin-left: 20%;
+  margin-left: -10%;
+  margin-bottom: -100px;
 }
 .footer {
   width: 100%;
