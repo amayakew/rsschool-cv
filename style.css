@@ -95,6 +95,15 @@ h1, h2 {
   padding: 20px;
   font-size: 18px;
   font-weight: 550;
+
+}
+.link {
+  font-weight: 700;
+  color: rosybrown;
+  text-decoration: none;
+}
+pre {
+  margin-left: 20%;
 }
 .footer {
   width: 100%;
