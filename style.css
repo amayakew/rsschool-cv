@@ -96,6 +96,9 @@ h1, h2 {
   font-size: 18px;
   font-weight: 550;
 }
+pre {
+  margin-left: 20%;
+}
 .footer {
   width: 100%;
   height: auto;
