@@ -1,14 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>html cv project</title>
-  <meta name="description" content="amayakew cv">
-  <meta name="author" content="anastasiya m">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSS Amaya CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>anastasiya m cv</p>
-  <script src="js/scripts.js"></script>
+  <header class="header">
+    <div class="container">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li><a href="#me" class="nav-link">About Me</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#code" class="nav-link">Code</a></li>
+        <li><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main class="main">
+    <div class="container">
+    <section class="section" id="profile">
+      <p><img class="photo" src="assets/images/206047768-b75a30d6-a059-41bb-a599-122e03cb7d1a.jpg" alt="Anastasiya M photo"></p>
+      <h1>Anastasiya Maistsiapanava</h1>
+      <p>Front-end web developer (Beginner)</p>
+    </section>
+    <section class="section" id="contacts">
+      <h2 id="contactinf">Contact information</h2>
+       <ul class="list">
+        <li class="list-item">
+          <p class="bold">Location</p>
+          <p>Minsk, Belarus</p>
+        </li>
+        <li class="list-item">
+          <p class="bold">Phone</p>
+          <p>+375257305653</p>
+        </li>
+        <li class="list-item">
+          <p class="bold">E-mail</p>
+          <p><a href="mailto:amaya.kew@gmail.com">amaya.kew@gmail.com</a></p>
+        </li>
+        <li class="list-item">
+          <p class="bold">Discord</p>
+          <p>anastasiya m</p>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="me">
+      <h2>About me</h2>
+      <div>
+      I'm a 26 year old curious mind person who likes and wants to learn smth new. 
+      Now I'm excited about JS/FE pre-school course (RS School). 
+      It's a challenge for me - my first steps in the IT field. 
+      At the same time I'm a barista, so I have strong communication, observational 
+      and multitasking skills, I'm good at teamwork and I also have a little management experience.
+      </div>
+    </section>
+    <section class="section" id="experience">
+      <h2>IT work experience</h2>
+      <p>I have no such experience yet, but I'm hopeful for the future.</p>
+    </section>
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <p>Bachelor degree in International Relations (2013-2017).</p>
+    </section>
+    <section class="section" id="code">
+      <h2>Code example</h2>
+      <p>Will be here a bit later.</p>
+    </section>
+    <section class="section" id="languages">
+      <h2>Languages</h2>
+      <ul class="list">
+        <li class="list-item">
+          <p class="bold">Russian, Belarusian</p>
+          <p>Native</p>
+        </li>
+        <li class="list-item">
+          <p class="bold">English</p>
+          <p>B1</p>
+        </li>
+        <li class="list-item">
+          <p class="bold">Spanish, Farsi</p>
+          <p>Basic</p>
+        </li>
+        <li class="list-item">
+          <p class="bold">Hebrew</p>
+          <p>Now in process:)</p>
+        </li>
+      </ul>
+    </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="logo">
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSS logo"></a>
+      </div>
+      <div>
+        <a href="https://github.com/amayakew"><img class="gh" src="assets/images/github-mark.png" alt="GH link"></a>
+      </div>
+      <p>Anastasiya Maistsiapanava 2022</p>
+    </div>
+  </footer>
 </body>
 </html>
