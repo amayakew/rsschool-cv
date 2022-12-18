@@ -104,6 +104,7 @@ h1, h2 {
 }
 pre {
   margin-left: 20%;
+  margin-bottom: -100px;
 }
 .footer {
   width: 100%;
